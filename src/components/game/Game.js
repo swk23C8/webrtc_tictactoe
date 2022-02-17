@@ -1,7 +1,6 @@
 import React from "react";
 import Board from "../board/Board";
 
-
 class Game extends React.Component {
     constructor(props) {
         super(props);
@@ -96,7 +95,7 @@ class Game extends React.Component {
                     />
                 </div>
                 <div className="game-info">
-                    <div>{"Fucking " +status}</div>
+                    <div>{"Fucking " + status}</div>
                     {/* <ol>{moves}</ol> */}
                 </div>
             </div>
